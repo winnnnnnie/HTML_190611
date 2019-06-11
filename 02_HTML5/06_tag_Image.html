@@ -3,29 +3,41 @@
 
 <head>
     <title> HTML </title>
+    <meta charset="UTF-8">
 </head>
 
 <body>
 
     <!-- http://www.w3schools.com/tags/ -->
-    
+
     <!-- <img>：透過 src 屬性 設定圖片 -->
     <!-- 1. 試著設定02_HTML5/img資料夾裡面的cat.png -->
+    <img src="img/op_01.jpg" alt=123456789>
+
     <!-- 2. 試著設定05_CSS3_Properties/img資料夾裡面的logo.png -->
-    <!-- 3. 是否可以將圖片設定為 D:\\HTML\\02_HTML5\\img\\cat.png ? -->
-    因爲\字符在Java中有特殊含義。這是一個轉義字符。
-    例如，如果在字符串文字中寫入\t，則表示一個製表符，而\n表示換行符。
-    要創建一個文字\字符，您必須使用轉義字符：\\將其轉義。
+    <img src="../05_CSS3_Properties/img/logo.png" alt="">
+
+    <!-- 3. 是否可以將圖片設定為 C:\\Lab_HTML\\HTML_190611\\02_HTML5\\img\\cat.png ? -->
+    <img src="C:\\Lab_HTML\\HTML_190611\\02_HTML5\\img\\cat.png" alt="">
+
     <!-- 4. 是否可以將圖片設定為 /img/op_01.jpg ?-->
     <img src="img/op_01.jpg" alt="">
-    
+
     <!-- 配合<map>可以標示圖片上的位置 -->
     <!-- 補充資料：https://www.image-map.net/ -->
     <!-- 試試看點選地圖上的北海道連結到這個網址：http://tw.visit-hokkaido.jp/ -->
+    <img src="img/japan.gif" alt="" usemap="#jp">
+    <map name="jp">
+        <area title="北海道介紹" href="http://tw.visit-hokkaido.jp/" shape="rect" coords="500,1,760,172" target="_blank"
+            alt="北海道介紹">
+    </map>
 
-   
+
     <!-- <figure>：將圖片和圖片說明群組再一起 -->
+
+
     <!-- <figcaption>：圖片說明 -->
+        
 
 </body>
 
